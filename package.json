@@ -1,0 +1,20 @@
+{
+  "name": "nodejsdockerboiler",
+  "version": "1.0.0",
+  "description": "one shot at nodejs with docker boiller config",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "docker"
+  ],
+  "author": "andrepinheiro",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.5"
+  }
+}
